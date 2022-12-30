@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+main()
+{
+  string name;
+  int price;
+  cout<<"Write Country's name: ";
+ cin>>name; 
+  cout<<"Write Country's name: ";
+ cin>>price;   
+  if(name=="pakistan")
+   {
+    float result;
+    result=price-(0.05*price);
+     cout<<"Your payable amount is: Rs. "<<result<<endl;
+  }
+ 
